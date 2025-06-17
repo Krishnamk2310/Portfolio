@@ -27,14 +27,13 @@ import { Navigation } from "@/components/Navigation";
 const Index = () => {
   const handleResumeDownload = () => {
     const driveUrl =
-      "https://drive.google.com/file/d/1ihS0RaDGXCxQCu_mRadyM5FgtcLpgy8i/view?usp=sharing";
+      "https://drive.google.com/file/d/1Iyr-MCfcPnxIhz5uLfzs81CkgQxv5SBI/view?usp=sharing";
     const fileId = driveUrl.match(/\/d\/(.+?)\//)?.[1];
     if (fileId) {
       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
       window.open(downloadUrl, "_blank");
     }
   };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Navigation />
