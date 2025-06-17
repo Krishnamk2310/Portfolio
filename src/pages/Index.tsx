@@ -26,9 +26,8 @@ import { Navigation } from "@/components/Navigation";
 
 const Index = () => {
   const handleResumeDownload = () => {
-    // Convert Google Drive share link to direct download link
     const driveUrl =
-      "https://drive.google.com/file/d/1Iyr-MCfcPnxIhz5uLfzs81CkgQxv5SBI/view?usp=sharing";
+      "https://drive.google.com/file/d/1ihS0RaDGXCxQCu_mRadyM5FgtcLpgy8i/view?usp=sharing";
     const fileId = driveUrl.match(/\/d\/(.+?)\//)?.[1];
     if (fileId) {
       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
