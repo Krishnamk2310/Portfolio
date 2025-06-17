@@ -94,7 +94,7 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Centered Tools and Design Tools in one row */}
+        {/* Centered Tools and Design Tools in one row with left-aligned content */}
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full md:w-2/3 lg:w-1/2">
             {centerAlignedCategories.map((category, index) => (
@@ -105,9 +105,9 @@ export const SkillsSection = () => {
                 transition={{ duration: 0.8, delay: 0.3 + index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 h-full text-center">
+                <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 h-full">
                   <CardHeader className="pb-4">
-                    <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${category.color} p-0.5 mb-4 mx-auto`}>
+                    <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${category.color} p-0.5 mb-4`}>
                       <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
                         <category.icon className="h-6 w-6 text-white" />
                       </div>
@@ -115,7 +115,7 @@ export const SkillsSection = () => {
                     <CardTitle className="text-white text-xl">{category.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-wrap gap-2 justify-center">
+                    <div className="flex flex-wrap gap-2">
                       {category.skills.map((skill) => (
                         <Badge
                           key={skill}
