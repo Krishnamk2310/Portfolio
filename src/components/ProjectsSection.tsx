@@ -36,22 +36,23 @@ const projects = [
     github: "https://github.com/Krishnamk2310/WellNest",
     live: "#",
   },
-  {
-    title: "QuickPaste - Instant Snippet Sharing",
-    description:
-      "Built a lightweight, fast, and responsive web app for quickly saving and sharing text/code snippets across devices. Designed with minimal UI and integrated real-time link sharing for productivity. Includes paste expiration and session-based privacy features.",
-    technologies: ["React.js", "Tailwind CSS", "JavaScript", "REST API"],
-    year: "2025",
-    type: "Web Development",
-    features: [
-      "Real-time link sharing",
-      "Paste expiration options",
-      "Session-based privacy",
-      "Minimal UI for productivity",
-    ],
-    github: "https://github.com/Krishnamk2310/QuickPaste",
-    live: "https://quick-paste-phi.vercel.app/",
-  },
+{
+  title: "Netflix Clone - Streaming UI with Firebase & TMDB",
+  description:
+    "Developed a full-fledged Netflix-inspired web app using React.js, integrating Firebase for authentication and The Movie Database (TMDB) API to fetch movies, trailers, and images. It includes seamless sign-up/sign-in functionality and dynamic content loading with a polished UI.",
+  technologies: ["React.js", "Firebase", "TMDB API", "JavaScript", "CSS"],
+  year: "2025",
+  type: "Web Development",
+  features: [
+    "User authentication with Firebase",
+    "Movie data and trailers from TMDB API",
+    "Responsive Netflix-style UI",
+    "Protected routes (Only logged-in users can access content)",
+    "Trailer playback using YouTube iframe"
+  ],
+  github: "https://github.com/Krishnamk2310/Netflix-clone",
+  live: "https://netflix-clonemkm.vercel.app/"
+},
   {
     title: "Saiyans Planet",
     description:
