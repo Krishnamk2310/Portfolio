@@ -11,25 +11,26 @@ import { Calendar, Users, Award, Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Team Lead & Presenter",
-    organization: "Smart India Hackathon 2024",
-    period: "2024",
-    type: "Leadership",
-    description:
-      "Led a team in developing a real-time AQI monitoring website. Implemented real-time data processing for accurate air pollution tracking and insights.",
-    achievements: [
-      "Led a team in the Smart India Hackathon 2024",
-      "Developed real-time AQI monitoring website",
-      "Implemented real-time data processing",
-      "Presented project with clarity and confidence to judges",
-    ],
-    skills: [
-      "Leadership",
-      "Team Management",
-      "Real-time Processing",
-      "Problem-solving",
-    ],
-  },
+  title: "Summer Trainee",
+  organization: "Hindustan Aeronautics Limited (HAL)",
+  period: "July 2025 ",
+  type: "Industrial Training",
+  description:
+    "Currently undergoing training at HAL, gaining hands-on exposure to aircraft and engine assembly, factory operations, and aerospace manufacturing workflows.",
+  achievements: [
+    "Observed aircraft and engine assembly processes firsthand",
+    "Visited factory floors to understand production and maintenance",
+    "Collaborated with engineers across key departments",
+    "Gained insights into quality control and safety protocols"
+  ],
+  skills: [
+    "Aerospace Industry Exposure",
+    "Technical Observation",
+    "Workflow Understanding",
+    "Team Collaboration"
+  ],
+}
+
 ];
 
 const certifications = [

@@ -12,6 +12,72 @@ import { ExternalLink, Github, Calendar } from "lucide-react";
 
 const projects = [
   {
+    title: "Roamly – AI Travel Planner",
+    description:
+      "Developed an AI-powered travel planning platform that generates personalized itineraries based on location, budget, duration, and number of travelers using Gemini AI. The system suggests hotels, places to visit, best time to travel, ticket fares, travel time between locations, and more.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Shadcn/ui",
+      "Gemini AI",
+      "Firebase Auth",
+      "Google Maps API",
+      "Google Places & Photos API",
+    ],
+    year: "2025",
+    type: "AI Web Application",
+    features: [
+      "Personalized itineraries using Gemini AI",
+      "Hotel and place recommendations with geo-data and pricing",
+      "Best time to travel, estimated travel time, and ticket cost",
+      "Google Sign-In authentication via Firebase",
+      "Modern responsive UI with Shadcn components and animations",
+    ],
+    github: "https://github.com/Krishnamk2310/Roamly-AI-Planner",
+    live: "https://roamly-ai-planner.vercel.app/",
+  },
+ {
+  title: "Netflix Clone – Streaming UI with Firebase & TMDB",
+  description:
+    "Developed a Netflix-inspired streaming platform using React.js with Firebase Authentication and TMDB API integration. Users can securely sign up, browse categorized movie lists, and watch trailers in real time. Features include dynamic content loading, responsive UI, and route protection for authenticated users.",
+  technologies: ["React.js", "Firebase", "TMDB API", "JavaScript", "CSS"],
+  year: "2025",
+  type: "Web Development",
+  features: [
+    "Firebase Authentication for secure sign-up and login",
+    "Dynamic movie data and trailers from TMDB API",
+    "Responsive Netflix-style UI with featured banners",
+    "Category-wise movie rows (e.g., Trending, Top Rated)",
+    "Trailer playback in modal using YouTube iframe",
+    "Protected routes with session persistence",
+  ],
+  github: "https://github.com/Krishnamk2310/Netflix-clone",
+  live: "https://netflix-clonemkm.vercel.app/",
+}
+,
+  {
+    title: "Saiyans Planet",
+    description:
+      "Built a sleek and responsive gym website with a minimal UI focused on performance and accessibility. Integrated a BMI Calculator for users to assess fitness metrics. Implemented toast notifications for enhanced user feedback and a backend contact form that allows visitors to send emails directly to the admin.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Nodemailer",
+    ],
+    year: "2025",
+    type: "Web Development",
+    features: [
+      "BMI Calculator integration",
+      "Toast notifications",
+      "Backend contact form with email support",
+      "Performance-optimized and accessible UI",
+    ],
+    github: "https://github.com/Krishnamk2310/Saiyans_Planet",
+  },
+  {
     title: "Wellness - AI-Powered Disease Prediction System",
     description:
       "Engineered an AI-driven system to predict diseases based on user symptoms, providing personalized healthcare insights. Designed an interactive interface displaying disease name, suggested medications, dietary restrictions, and workout plans.",
@@ -34,63 +100,6 @@ const projects = [
       "Personalized health recommendations",
     ],
     github: "https://github.com/Krishnamk2310/WellNest",
-    live: "#",
-  },
-{
-  title: "Netflix Clone - Streaming UI with Firebase & TMDB",
-  description:
-    "Developed a full-fledged Netflix-inspired web app using React.js, integrating Firebase for authentication and The Movie Database (TMDB) API to fetch movies, trailers, and images. It includes seamless sign-up/sign-in functionality and dynamic content loading with a polished UI.",
-  technologies: ["React.js", "Firebase", "TMDB API", "JavaScript", "CSS"],
-  year: "2025",
-  type: "Web Development",
-  features: [
-    "User authentication with Firebase",
-    "Movie data and trailers from TMDB API",
-    "Responsive Netflix-style UI",
-    "Protected routes (Only logged-in users can access content)",
-    "Trailer playback using YouTube iframe"
-  ],
-  github: "https://github.com/Krishnamk2310/Netflix-clone",
-  live: "https://netflix-clonemkm.vercel.app/"
-},
-  {
-    title: "Saiyans Planet",
-    description:
-      "Built a sleek and responsive gym website with a minimal UI focused on performance and accessibility. Integrated a BMI Calculator for users to assess fitness metrics. Implemented toast notifications for enhanced user feedback and a backend contact form that allows visitors to send emails directly to the admin.",
-    technologies: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "Tailwind CSS",
-      "JavaScript",
-      "Nodemailer",
-    ],
-    year: "2025",
-    type: "Web Development",
-    features: [
-      "BMI Calculator integration",
-      "Toast notifications",
-      "Backend contact form with email support",
-      "Performance-optimized and accessible UI",
-    ],
-    github: "https://github.com/Krishnamk2310/Saiyans_Planet",
-    live: "#",
-  },
-  {
-    title: "FITNEXIA - Gym & Fitness Website",
-    description:
-      "Developed a feature-rich fitness platform enabling users to access personalized workout plans, expert training, and real-time fitness tracking. Designed intuitive UI with sections including Home, About Us, Programs, Services, Testimonials, and Blog with responsive web design.",
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"],
-    year: "2025",
-    type: "Web Development",
-    features: [
-      "Responsive web design",
-      "Interactive UI sections",
-      "Real-time fitness tracking",
-      "Personalized workout plans",
-    ],
-    github: "https://github.com/Krishnamk2310/Fitnesxia",
-    live: "https://fitnesxia.vercel.app/",
   },
 ];
 
@@ -105,12 +114,10 @@ export const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">
-            Featured Projects
-          </h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-gray-300 mt-6 text-lg max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills 
+            Here are some of my recent projects that showcase my skills
           </p>
         </motion.div>
 
@@ -148,11 +155,10 @@ export const ProjectsSection = () => {
                     {project.description}
                   </CardDescription>
                 </CardHeader>
+
                 <CardContent className="space-y-6">
                   <div>
-                    <h4 className="text-white font-semibold mb-3">
-                      Key Features:
-                    </h4>
+                    <h4 className="text-white font-semibold mb-3">Key Features:</h4>
                     <ul className="space-y-1">
                       {project.features.map((feature, idx) => (
                         <li
@@ -167,9 +173,7 @@ export const ProjectsSection = () => {
                   </div>
 
                   <div>
-                    <h4 className="text-white font-semibold mb-3">
-                      Technologies:
-                    </h4>
+                    <h4 className="text-white font-semibold mb-3">Technologies:</h4>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map((tech) => (
                         <Badge
@@ -184,15 +188,17 @@ export const ProjectsSection = () => {
                   </div>
 
                   <div className="flex gap-3 pt-4">
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <Button
-                        size="sm"
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
-                      >
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Live Demo
-                      </Button>
-                    </a>
+                    {project.live && (
+                      <a href={project.live} target="_blank" rel="noopener noreferrer">
+                        <Button
+                          size="sm"
+                          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
+                        >
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Live Demo
+                        </Button>
+                      </a>
+                    )}
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Button
                         size="sm"

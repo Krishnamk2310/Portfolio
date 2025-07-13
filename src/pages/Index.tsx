@@ -199,7 +199,7 @@ const Index = () => {
                     <h3 className="text-blue-300 font-semibold">
                       B.Tech - Computer Science and Engineering
                     </h3>
-                    <p className="text-gray-300">CGPA: 8.71 (2022 - 2026)</p>
+                    <p className="text-gray-300">CGPA: 8.4 (2022 - 2026)</p>
                   </div>
                   <div>
                     <h3 className="text-blue-300 font-semibold">
