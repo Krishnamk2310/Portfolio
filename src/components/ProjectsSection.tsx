@@ -36,6 +36,32 @@ const projects = [
     github: "https://github.com/Krishnamk2310/Roamly-AI-Planner",
     live: "https://roamly-ai-planner.vercel.app/",
   },
+  {
+    title: "SyntaxSense AI – Intelligent Code Review System",
+    description:
+      "Developed an AI-powered code review platform that analyzes code for quality, performance, maintainability, and security. Supports multiple languages (Java, C, C++, Python, JavaScript) with context-aware suggestions and auto-refactoring using Gemini AI.",
+    technologies: [
+      "React.js",
+      "Gemini AI",
+      "Prismjs",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "Markdown",
+      "rehype-highlight",
+    ],
+    year: "2025",
+    type: "AI Web Application",
+    features: [
+      "Multi-language code analysis (Java, Python, JavaScript, etc.)",
+      "Gemini AI integration for intelligent suggestions",
+      "Syntax highlighting with Prismjs and Markdown",
+      "Secure backend with Node.js/Express.js",
+      "Clean, responsive UI with Tailwind CSS",
+    ],
+    github: "https://github.com/Krishnamk2310/SyntaxSense-AI",
+    live: "https://syntaxsense-ai-frontend.onrender.com/",
+  },
  {
   title: "Netflix Clone – Streaming UI with Firebase & TMDB",
   description:
@@ -53,8 +79,31 @@ const projects = [
   ],
   github: "https://github.com/Krishnamk2310/Netflix-clone",
   live: "https://netflix-clonemkm.vercel.app/",
-}
-,
+},
+{
+  title: "Fitnesxia – Modern Gym Website",
+  description:
+    "Designed and developed a responsive gym website with animated UI components using React, Tailwind CSS, and Framer Motion. Features smooth transitions, hover effects, and scroll-triggered animations for an engaging user experience.",
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Framer Motion",
+    "React Icons",
+    "CSS Animations"
+  ],
+  year: "2025",
+  type: "Web Development",
+  features: [
+    "Fully responsive design with animated transitions",
+    "Interactive elements with hover effects (buttons, cards)",
+    "Animated page transitions between routes",
+    "Loading animations for better perceived performance",
+    "Dynamic trainer profiles with animated social links",
+    "Membership cards with pricing animation on hover",
+  ],
+  github: "https://github.com/Krishnamk2310/Fitnesxia",
+  live: "https://fitnesxia.vercel.app/",
+},
   {
     title: "Saiyans Planet",
     description:

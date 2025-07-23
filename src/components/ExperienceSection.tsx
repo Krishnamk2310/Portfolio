@@ -13,22 +13,22 @@ const experiences = [
   {
   title: "Summer Trainee",
   organization: "Hindustan Aeronautics Limited (HAL)",
-  period: "July 2025 ",
+  period: "July 2025",
   type: "Industrial Training",
   description:
-    "Currently undergoing training at HAL, gaining hands-on exposure to aircraft and engine assembly, factory operations, and aerospace manufacturing workflows.",
+    "Gained hands-on exposure to aircraft and engine assembly, factory operations, and aerospace manufacturing workflows.",
   achievements: [
-    "Observed aircraft and engine assembly processes firsthand",
-    "Visited factory floors to understand production and maintenance",
-    "Collaborated with engineers across key departments",
-    "Gained insights into quality control and safety protocols"
+    "Observed aircraft and engine assembly processes",
+    "Learned about production and maintenance on factory floors",
+    "Collaborated with engineers across departments",
+    "Studied quality control and safety protocols"
   ],
   skills: [
     "Aerospace Industry Exposure",
     "Technical Observation",
     "Workflow Understanding",
     "Team Collaboration"
-  ],
+  ]
 }
 
 ];

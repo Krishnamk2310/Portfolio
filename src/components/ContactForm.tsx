@@ -135,7 +135,7 @@ export const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-gray-300">Greater Noida, India</p>
+                  <p className="text-gray-300">Lucknow, India</p>
                 </div>
               </motion.div>
             </div>
